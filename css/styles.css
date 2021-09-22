@@ -84,18 +84,20 @@ color: var(--main-color);
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
-font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-font-size: 44px;
 color:var(--secondary-color);
+}
+
+.hiro-title{
+  font-size: 44px;
 }
 
 .button:hover,
 .button:focus{
-  color: #188ce8;
+ background-color:  #188ce8;
 }
 
 .button{
